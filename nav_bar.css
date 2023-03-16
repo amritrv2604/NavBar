@@ -1,0 +1,35 @@
+body{
+    background-color: lightpink;
+}
+.nav {
+    background-color: brown;
+    height: 30px;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 21px;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+.nav ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 12px;
+}
+.nav ul li a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+
+}
+.nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
